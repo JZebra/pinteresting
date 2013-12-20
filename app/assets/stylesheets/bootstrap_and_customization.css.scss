@@ -1,9 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700|Alegreya+Sans:400,700,400italic);
 @import 'bootstrap';
 
 $body-bg: #ecf0f1;
-$navbar-inverse-bg: #9b59b6;
-$navbar-inverse-link-color: white;
-$navbar-inverse-border: darken($navbar-inverse-bg, 5%);
-$brand-primary: #f39c12;
-$jumbotron-bg: #bdc3c7;
+$navbar-default-brand-color: white;
+$navbar-default-bg: #3498db;
+$navbar-default-link-color: white;
+$navbar-default-border: lighten($navbar-default-bg, 10%);
+$brand-primary: #9b59b6;
+$jumbotron-bg: white;
+$jumbotron-font-size: ceil($font-size-base *2.0);
+$font-family-sans-serif:  'Alegreya Sans', sans-serif;
+$font-family-serif:		'Playfair Display', serif;
+$navbar-height:		40px;
+
 @import 'bootstrap';
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
